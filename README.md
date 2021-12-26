@@ -1,1 +1,2 @@
 # grannys-recipes
+This is a refresher of HTML using links of my family favorite recipes. This project demonstates the basics of HTML text, lists, linking as well as the foundational skills involving git and github.
