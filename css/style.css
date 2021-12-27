@@ -1,6 +1,6 @@
 h1 {
+    padding-block-start: 10px;
     background-color: salmon;
-    padding-block-start: 60px;
     font-family: Georgia, serif;
     font-size: 60px;
     font-weight: bolder;
@@ -8,8 +8,13 @@ h1 {
 }
 
 body {
-    margin: 0;
+    margin: -50px;
     text-align: center;
-    font-size: 30px;
     font-weight: bold;
+}
+
+.ingredients-instructions {
+    text-align: left;
+    font-size: larger;
+    margin: 50px;
 }
