@@ -1,14 +1,49 @@
-h1 {
+.container {
+    display: flex;
+    height: 200px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: salmon;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border-style: double;
+    border-width: 10px;
+    border-color: white;
+}
+
+.recipes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 100px;
+    width: 800px;
+    border-radius: 20px;
+    border-width: 10px;
+    border-style: double;
+    border-color: salmon;
+    margin: auto;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+/* h1 {
     padding-block-start: 10px;
     background-color: salmon;
+    border-width: 28 px;
+    border-color: lavender;
     font-family: Georgia, serif;
     font-size: 60px;
     font-weight: bolder;
     text-align: center;
   }
-
+*/
 body {
-    margin: -50px;
+    /*margin: -50px;*/
+    /*background-color: lightpink;*/
     text-align: center;
     font-weight: bold;
 }
@@ -16,5 +51,5 @@ body {
 .ingredients-instructions {
     text-align: left;
     font-size: larger;
-    margin: 60px;
+    padding: 60px;
 }
